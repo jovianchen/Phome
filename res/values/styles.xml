@@ -1,0 +1,16 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar.Fullscreen" />
+
+    <!-- Text Style -->
+    <style name="Text_Mail_Available">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Text_Mail_Disable">
+        <item name="android:textColor">@color/green_light</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Phome 1.0"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="by Jovian Chen"
+        android:textColor="@color/white"
+        android:textSize="20sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_mail"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="chenzhe008@gmail.com"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/app_info"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:lineSpacingExtra="6dp" >
+    </TextView>
+
+</LinearLayout>

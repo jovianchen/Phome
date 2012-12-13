@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blue"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_mail48" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/et_mail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/edit_text"
+                    android:hint="@string/et_hint_mail"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"
+                    android:textColor="@color/blue_dark" android:paddingRight="120dp"/>
+
+                <Spinner
+                    android:id="@+id/sp_mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/sp_selector_mail" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_key48" />
+
+            <EditText
+                android:id="@+id/et_pwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text"
+                android:hint="@string/et_hint_pwd"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="@color/blue_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_selector_pink"
+                android:onClick="onButtonTestClicked"
+                android:text="@string/btn_testsend"
+                android:textColor="@color/blue_dark" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_selector_white"
+                android:onClick="onButtonFinishClicked"
+                android:text="@string/btn_finish"
+                android:textColor="@color/blue_dark" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

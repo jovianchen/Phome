@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="btn_testsend">發送一封測試郵件</string>
+    <string name="btn_finish">完成</string>
+    <string name="et_hint_mail">郵箱賬號</string>
+    <string name="et_hint_pwd">密碼</string>
+    <string name="app_info">Phome是一款小巧且富有設計感的助手應用。\n\n它能在您手機離身後，將收到的來電和短訊以Email通知到您指定的郵箱，避免錯過任何一個重要電話與短訊，消除您忘記帶手機上班的焦慮。</string>
+    <string name="tip_mail">· 請確認郵箱設置中開啓SMTP服務 ·</string>
+    <string name="tip_pwd">· Phome絕不會采集您的賬號密碼 ·</string>
+    <string name="toast_mail">請輸入郵箱地址</string>
+    <string name="toast_pwd">請輸入郵箱密碼</string>
+    <string name="toast_suffix">您無需輸入郵箱後綴，請直接點選支持的郵箱後綴</string>
+    <string name="toast_testmail">發送一封測試郵件到該郵箱中，請查收</string>
+    <string name="toast_neterror">設備似乎沒有聯網，請檢查</string>
+    <string name="mail_test_subject">來自手機的測試郵件</string>
+    <string name="mail_test_body">好極了！該郵箱可以正確接收您的手機離身信息。</string>
+    <string name="mail_subject_basic">您的手機上有 </string>
+    <string name="mail_subject_msg">條未讀短訊</string>
+    <string name="mail_subject_call">個未接來電 </string>
+    <string name="mail_title_msg">=== 短訊 ===</string>
+    <string name="mail_title_call">=== 來電 ===</string>
+    <string name="mail_from">來自： </string>
+    <string name="mail_body">内容： </string>
+    <string name="mail_time">時間： </string>
+    <string name="dialog_title">通知</string>
+    <string name="dialog_body">Phome猜您的手機已離身\n\n已開啓郵件通知服務</string>
+    <string name="dialog_stop">停止服務</string>
+     <string name="dialog_title_guide">使用說明</string>
+    <string name="dialog_guide">手機忘帶時，發送短訊“忘帶手機”至本機以啓動郵件通知服務。同時您的郵箱中會收到一封確認郵件。</string>
+    <string name="dialog_i_know">我知道了</string>
+    <string name="dialog_no_more">不再提示</string>
+    <string name="key_message">忘帶手機</string>
+</resources>
